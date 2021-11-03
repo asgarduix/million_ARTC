@@ -1,0 +1,355 @@
+/* html標籤設定_start */
+* {
+    font-family: 標楷體, DFKai-sb, Times New Roman, Times, serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: none;
+    color: #195fb9;
+    padding: 2px;
+}
+
+input {
+    color: #195fb9;
+}
+
+/* html標籤設定_end */
+
+/* 紙張尺寸設定_start */
+.a4PaperContainer {
+    width: 894px;
+    /*height: 1123px;*/
+    margin: 0 auto;
+    padding: 15px;
+    border: #aaa solid 1px;
+}
+
+/* 紙張尺寸設定_end */
+
+
+/* 欄位設定_start */
+.form-note1 {
+    color: #4444da;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    font-size: 0.875rem;
+}
+
+.form-note2 {
+    padding: 0 10px;
+    margin-bottom: 7px;
+}
+
+.form-note2Inner {
+    padding-bottom: 2px;
+    border-bottom: #000 dashed 3px;
+}
+
+.form-note2 span {
+    font-size: 1.125rem;
+    background-color: #c0c0c0;
+    letter-spacing: 0.05rem;
+}
+
+.form-note3 {
+    font-size: 0.875rem;
+    padding: 0 10px;
+    margin-bottom: 1px;
+}
+
+.form-note4 {
+    padding: 0 10px;
+    margin-bottom: 40px;
+}
+
+.form-note4Inner {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+.note4Title,
+.note4List {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.note4Title {
+    width: 35px;
+    padding-top: 2px;
+}
+
+.note4Title span::after {
+    content: "：";
+}
+
+.note4List ol {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.note4List li {
+    line-height: 1.05;
+    margin-bottom: 7px;
+}
+
+.form-note5 {
+    padding: 0 10px;
+}
+
+.form-note5 span::after {
+    content: "/";
+}
+
+.form-note5 span:nth-last-child(1)::after {
+    content: "";
+}
+
+.form-name {
+    font-size: 1.875rem;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.form-row {
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+
+.form-row-underline .form-rowInner {
+    border-bottom: #aaa solid 1px;
+}
+
+.form-rowInner {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+.form-fieldItem {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.form-fieldItemInner {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+.from-filedTitle,
+.from-fieldInput {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.from-filedTitle {
+    padding: 0 3px;
+}
+
+.from-filedTitle::after {
+    content: "：";
+    vertical-align: middle;
+}
+
+.from-fieldInput {
+    border-bottom: #aaa solid 1px;
+}
+
+.from-fieldInput input {
+    width: 100%;
+    border: none;
+    padding: 2px 5px;
+    height: auto;
+}
+
+.from-filedTitle-vertical {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.from-fieldInput-vertical {
+    border-top: #aaa solid 1px;
+    padding: 7px 1px;
+}
+
+.from-fieldInput-vertical input {
+    width: 100%;
+    border: none;
+    padding: 3px 5px;
+    text-align: center;
+}
+
+.from-fieldInput-vertical textarea {
+    width: 100%;
+    height: auto;
+    border: none;
+    padding: 1px 5px;
+    text-align: left;
+    line-height: 1;
+}
+
+.form-table {
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+table {
+    border-bottom: none;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: #aaa solid 1px;
+    padding: 4px;
+    font-size: 0.9375rem;
+    line-height: 0.95;
+}
+
+table ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+table li {
+    margin-bottom: 20px;
+}
+
+table li:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+table li span {
+    font-size: 0.75rem;
+}
+
+/* 欄位設定_end */
+
+/* 內容設定_start */
+.formlogo {
+    margin-bottom: 10px;
+}
+
+.formlogo img {
+    max-width: 400px;
+}
+
+.applyName {
+    width: 60%;
+}
+
+.applyName .from-filedTitle {
+    width: 155px;
+}
+
+.applyDate .from-filedTitle {
+    width: 115px;
+}
+
+.applyAddress .from-filedTitle {
+    width: 112px;
+}
+
+.infoTable table {
+    width: 100%;
+}
+
+.infoTable table td {
+    padding: 0 3px;
+}
+
+.infoTable table input,
+.infoTable table textarea {
+    width: 100%;
+    border: none;
+}
+
+.infoTable table input {
+    text-align: center;
+}
+
+.detectNum {
+    width: 60%;
+}
+
+.detectNum .from-filedTitle {
+    width: 112px;
+    height: 37px;
+}
+
+.detectNum .from-filedTitle {
+    vertical-align: top;
+}
+
+.insuranceDate .from-filedTitle {
+    width: 90px;
+    vertical-align: top;
+}
+
+table tr.calculateRow td {
+    border: none;
+}
+
+table tr.calculateRow td:nth-last-child(1) {
+    border: #111 solid 4px;
+}
+
+table tr.calculateRow td:nth-last-child(1) input {
+    border: none;
+    width: 160px;
+}
+
+.printBtn {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.printBtn button {
+    background: #02a7f0;
+    border-radius: 30px;
+    padding: 5px 30px;
+    box-sizing: none;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-family: Microsoft Jenghei;
+    letter-spacing: 0.05rem;
+    cursor: pointer;
+}
+
+.printBtn button:hover {
+    background: #0075be;
+}
+
+/* 內容設定_end */
+
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (max-width: 991px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 576px) {}
+
+@media only screen and (max-width: 440px) {}
+
+@media only screen and (max-width: 420px) {}
